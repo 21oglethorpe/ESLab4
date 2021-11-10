@@ -66,7 +66,7 @@
 #define INTC_HANDLER            XScuGic_InterruptHandler
 #endif /* XPAR_INTC_0_DEVICE_ID */
 
-#define PWM_PERIOD              5000000    /* PWM period in (500 ms) */
+#define PWM_PERIOD              5000000    /* PWM period in (5 ms) */
 #define TMRCTR_0                0            /* Timer 0 ID */
 #define TMRCTR_1                1            /* Timer 1 ID */
 #define CYCLE_PER_DUTYCYCLE     10           /* Clock cycles per duty cycle */
